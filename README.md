@@ -58,17 +58,17 @@ Anonymized URL of the tab. For example, when the user is visiting `http://server
 A `sha_[url_component]` is obtained using [jshashes](https://www.npmjs.com/package/jshashes) library in a manner of `sha_url = SHA1.hex(url)`.
 
 
-## Recommendation log
+### Recommendation log
 
-### timestamp
+#### timestamp
 
 Timestamp of recommendation feedback observation.
 
-### user
+#### user
 
 Anonymized GUID of a user.
 
-### detected_pattern
+#### detected_pattern
 
 * MULTI_ACTIVATE - User focused four tabs in a constant time gap.
 * MULTI_ACTIVATE_V2 - User focused four tabs in a constant time gap (excluding some time after accepting).	
@@ -78,13 +78,13 @@ Anonymized GUID of a user.
 * REFRESH_V0 - User is monitoring (refreshing) specific tab three times in thresholded running average time gap.	
 * MULTI_CLOSE_V0 - User closed four tabs consecutively (without other event interuption) in thresholded running average time gap.
 
-### recommendation
+#### recommendation
 
 * TAB_DOMAIN_SORT - Will sort all opened tabs in current window by domain URLs.
 * TAB_DOMAIN_SORT_V2 - Will sort all opened tabs in current window by domain URLs and wait some time after execution and dont trigger again.
 * NO_ADVICE - No action is performed, confirmation prompt is displayed.
 
-### feedback
+#### feedback
 
 * ACCEPTED - Recommendation manually accepted
 * AUTOMATIC - Recommendation automatically accepted (per user settings in extension)
