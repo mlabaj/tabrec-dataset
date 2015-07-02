@@ -1,10 +1,12 @@
 # Browser Action Recommendation Dataset
 
-This is a dataset of anonymized user activity during long-term unsupervised interaction with a web browser. The data comes from [TabRec browser extension](http://tabber.fiit.stuba.sk), which logs user activity, recommends appropriate browser actions for detected common patterns, and collects user feedback for action recommendations and pattern confirmations. The dataset is accompanying a paper: [add details when published]
+This is a dataset of anonymized user activity during long-term unsupervised interaction with a web browser. The data comes from [TabRec browser extension](http://tabber.fiit.stuba.sk), which logs user activity, recommends appropriate browser actions for detected common patterns, and collects user feedback for action recommendations and pattern confirmations. The dataset is accompanying a paper: [add details]
 
-The usage observations cover a period of March 2015 to July 2015. The recommendation observations cover a period of April 2015 to July 2015, individual recommendations were added gradually.
+The browser extension is open-sourced:
+* [TabRec extension](https://github.com/martin-svk/tabrec)
+* [TabRec server API](https://github.com/martin-svk/tabrec-api)
 
-There are two files available, one [tab interaction indicator/browser action recommendation] observation per line, with the following fields:
+Usage observations cover a period of March 2015 to July 2015. The recommendation observations cover a period of April 2015 to July 2015, individual recommendations were added gradually. There are two files available, one [tab interaction indicator/browser action recommendation] observation per line, with the following fields:
 
 ## Usage log
 
