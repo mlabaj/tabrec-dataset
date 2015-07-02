@@ -6,23 +6,23 @@ The browser extension is open-sourced:
 * [TabRec extension](https://github.com/martin-svk/tabrec)
 * [TabRec server API](https://github.com/martin-svk/tabrec-api)
 
-Usage observations cover a period of March 2015 to July 2015. The recommendation observations cover a period of April 2015 to July 2015, individual recommendations were added gradually. There are two files available, one [tab interaction indicator/browser action recommendation] observation per line, with the following fields:
+Usage observations cover a period of March 2015 to July 2015. The recommendation observations cover a period of April 2015 to July 2015, individual recommendations were added gradually. There are two files available, one [tab interaction indicator/browser action recommendation] observation per line, with the following variables:
 
-## Usage log
+### Usage log
 
-### timestamp
+#### timestamp
 
 Timestamp of tab interaction indicator observation.
 
-### user
+#### user
 
 Anonymized GUID of a user.
 
-### session_id
+#### session_id
 
 Identifier of user's browsing session.
 
-### event
+#### event
 
 * TAB_CREATED - New tab was opened
 * TAB_REMOVED - Tab was closed
@@ -32,21 +32,22 @@ Identifier of user's browsing session.
 * TAB_DETACHED - Tab moved between windows (detached from old)
 * TAB_ATTACHED - Tab moved between windows (attached to new)
 
-### tab_id
+#### tab_id
 
 Tab identifier within user's browser.
 
-### window_id
+#### window_id
 
 Window identifier within user's browser.
 
-### index_from, index_to
+#### index_from, index_to
 
 Indices of tab movement.
 
-### sha_url, sha_domain, sha_subdomain, sha_path
+#### sha_url, sha_domain, sha_subdomain, sha_path
 
 Anonymized URL of the tab. For example, when the user is visiting `http://server1.example.org/a/resource.html?parameter=x`, the URL components are as follows:
+
 | Name      | Value |
 | :-------- | :---- |
 | url       | http://server1.example.org/a/resource.html?parameter=x |
