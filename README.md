@@ -48,14 +48,14 @@ Indices of tab movement.
 
 Anonymized URL of the tab. For example, when the user is visiting `http://server1.example.org/a/resource.html?parameter=x`, the URL components are as follows:
 
-| Name      | Value |
+| Component | Value |
 | :-------- | :---- |
 | url       | http://server1.example.org/a/resource.html?parameter=x |
 | domain    | example.org |
 | subdomain | server1.example.org |
 | path      | /a/resource.html | 
 
-A `sha_[url_component]` is obtained using [jshashes](https://www.npmjs.com/package/jshashes) library in a manner of `sha_url = SHA1.hex(url)`.
+A `sha_[url_component]` is obtained using [jshashes](https://www.npmjs.com/package/jshashes) library in a manner of `sha_component = SHA1.hex(component)`.
 
 
 ### Recommendation log
