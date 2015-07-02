@@ -4,7 +4,7 @@ This is a dataset of anonymized user activity during long-term unsupervised inte
 
 The usage observations cover a period of March 2015 to July 2015. The recommendation observations cover a period of April 2015 to July 2015, individual recommendations were added gradually.
 
-There are two files available, one [[tab interaction indicator/browser action recommendation]] observation per line, with the following fields:
+There are two files available, one [tab interaction indicator/browser action recommendation] observation per line, with the following fields:
 
 ## Usage log
 
