@@ -8,6 +8,8 @@ The browser extension is open-sourced:
 
 Usage observations cover a period of March 2015 to July 2015. The recommendation observations cover a period of April 2015 to July 2015, individual recommendations were added gradually. There are two files available, one [tab interaction indicator/browser action recommendation] observation per line, with the following variables:
 
+----------------------------------
+
 ### usage_log.csv
 
 #### timestamp
@@ -57,6 +59,7 @@ Anonymized URL of the tab. For example, when the user is visiting `http://server
 
 A `sha_[url_component]` is obtained using [jshashes](https://www.npmjs.com/package/jshashes) library in a manner of `sha_component = SHA1.hex(component)`.
 
+----------------------------------
 
 ### recommendation_log.csv
 
